@@ -1,0 +1,54 @@
+[
+  {
+    "ContainingType": "DBPruebaGuid.Controllers.CategoriaController",
+    "Method": "SaveCategoria",
+    "RelativePath": "api/Categoria/save",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DBPruebaGuid.Models.ViewModels.Categoria.CategoriaViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DBPruebaGuid.Controllers.ProductoController",
+    "Method": "SaveProduct",
+    "RelativePath": "api/Producto/save",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DBPruebaGuid.Models.ViewModels.Producto.ProductoViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DBPruebaGuid.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DBPruebaGuid.WeatherForecast, DBPruebaGuid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
